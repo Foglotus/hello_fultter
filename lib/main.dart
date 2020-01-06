@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:hello_flutter/rxdart/demo.dart';
 import 'stream/demo.dart';
 
 void main() => runApp(MaterialApp(
@@ -17,7 +18,7 @@ void main() => runApp(MaterialApp(
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return StreamDemo();
+    return RxDartDemo();
   }
 }
 
