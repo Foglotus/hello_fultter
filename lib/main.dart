@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:hello_flutter/rxdart/demo.dart';
 import 'stream/demo.dart';
 import 'bloc/demo.dart';
+import 'package:hello_flutter/http/http_demo.dart';
 
 void main() => runApp(MaterialApp(
       debugShowCheckedModeBanner: false,
@@ -19,7 +20,7 @@ void main() => runApp(MaterialApp(
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return BlocDemo();
+    return HttpDemo();
   }
 }
 
